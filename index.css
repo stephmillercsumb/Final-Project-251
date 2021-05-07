@@ -1,0 +1,51 @@
+html {
+  background-color: #fbf2da;
+}
+
+#logo {
+  float: right;
+border: solid transparent;
+margin: 0px;
+padding: 0px;
+display: inline-block;
+width: fit-content;
+padding-right: 20px;
+}
+
+#logo img {
+  width: 80%;
+      min-width: 200px;
+      float: right;
+}
+
+#main {
+  width: 40%;
+  min-width: 200px;
+  padding: 20px;
+  float: right;
+  display: inline-block;
+  position: absolute;
+  right: 0%;
+  top: 40%;
+  background-color: #ebc257;
+  border:solid transparent;
+  border-radius: 20px;
+}
+
+#main p {
+  color: ;
+  font-family: ;
+  font-size: ;
+}
+
+#image {
+  float:left;
+  position:absolute;
+  left:0%;
+  bottom:0%;
+}
+
+#image img {
+  width: 80%;
+  min-width: 300px;
+}
