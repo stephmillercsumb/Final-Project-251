@@ -1,15 +1,16 @@
 html {
+  /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
 }
 
 #logo {
   float: right;
-border: solid transparent;
-margin: 0px;
-padding: 0px;
-display: inline-block;
-width: fit-content;
-padding-right: 20px;
+  border: solid transparent;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  width: fit-content;
+  padding-right: 20px;
 }
 
 #logo img {
@@ -21,23 +22,29 @@ padding-right: 20px;
 #main {
   width: 40%;
   min-width: 200px;
-  padding: 20px;
+  padding: 15px;
   float: right;
   display: inline-block;
   position: absolute;
-  right: 0%;
+  right: 2%;
   top: 40%;
+  /*Leo: this is where you can place background color*/
   background-color: #ebc257;
   border:solid transparent;
   border-radius: 20px;
 }
 
 #main p {
+  /*Leo: this is where you can place fonts and font color*/
   color: ;
+  /*Leo: dont forget to link fonts in HTML*/
   font-family: ;
   font-size: ;
 }
 
+h1,h2,h3,h4 {
+  /*Leo: this is where you can place fonts and font color*/
+}
 #image {
   float:left;
   position:absolute;
