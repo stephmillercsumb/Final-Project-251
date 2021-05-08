@@ -1,20 +1,27 @@
 html {
   /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
+  /*Stephanie: this is where you place the large yoyo image*/
+  background-image: url(img/holder500.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+body {
+  background-color: transparent;
 }
 p {
 font-family: ;
 font-size: ;
 color: ;
-
 }
-
+/*Leo: here is paragraph and header styling*/
 h1,h2,h3,h4 {
   font-family: ;
   color: ;
 }
 
-#container-a, #container-b, #container-c {
+#container-a, #container-b{
   display: flex;
   flex: 100%;
   padding: 20px;
@@ -22,8 +29,9 @@ h1,h2,h3,h4 {
 }
 
 #main {
-  flex: 40%;
+  flex: 65%;
   padding: 10px;
+  /*Leo:pick a color for the main paragraph, be consistent with landing page's main*/
   background-color: #ebc257;
   border: solid transparent;
   border-radius: 20px;
@@ -35,7 +43,7 @@ h1,h2,h3,h4 {
 }
 
 #main-img {
-  flex: 50%;
+  flex: 30%;
 }
 
 #main-img img {
@@ -69,6 +77,13 @@ margin: 0px auto 0px auto;
   margin-top: 5px;
 }
 
+#container-c {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
 .block-l{
 min-width: 170px;
 display: inline-block;
@@ -92,16 +107,9 @@ margin: 0px auto 0px auto;
   border-radius: 5px;
   margin-top: 5px;
 }
-.right {
-  flex: 65%;
-}
 
-.right img {
-  float: right;
-  width: 100%;
-}
 .left {
-  flex: 30%;
+  width: 30%;
 }
 
 .bottom {
