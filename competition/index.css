@@ -38,7 +38,34 @@ h1,h2,h3,h4 {
   width:100%;
   text-align: center;
 }
+.opt-con{
+  display:flex;
+  width:100%;
+  margin: 30px 0px 50px 0px
+}
+.opt {
+      flex: 10%;
+      margin: 5px;
+      border: solid transparent;
+      border-radius: 10px;
+      background-color: #eb8e4b5e;
+      padding: 5px;
+}
 
+.opt p {
+  font-size: 10pt;
+}
+
+.opt a {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 10pt;
+}
+
+.bold {
+  font-weight: 600;
+}
 #main {
   flex: 65%;
   padding: 10px;
