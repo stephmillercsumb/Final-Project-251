@@ -2,7 +2,6 @@ html {
   /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
   /*Stephanie: this is where you place the large yoyo image*/
-  background-image: url(img/holder500.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -23,6 +22,11 @@ h1,h2,h3,h4 {
   font-weight: 400;
   font-style: normal;
   color: #033863;
+}
+
+h1{
+  font-size: 170px;
+  text-align: center;
 }
 
 #container-a, #container-b{
@@ -58,8 +62,12 @@ h1,h2,h3,h4 {
 }
 
 #main-img img {
-  width: 90%;
+  width: 50%;
   float: right;
+  position: fixed;
+  right: -10%;
+  z-index: -20%;
+
 }
 
 .block {

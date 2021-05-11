@@ -52,16 +52,23 @@ h1,h2,h3,h4 {
   font-style: normal;
 }
 
+h1{
+  font-size: 150px;
+  background-color: #aaebc2;
+  border-radius: 20px;
+}
+
 #image {
   float:left;
-  position:absolute;
-  left:0%;
-  bottom:0%;
+  position: fixed;
+  left:-3%;
+  bottom:-30%;
+
 }
 
 #image img {
-  width: 80%;
-  min-width: 300px;
+  width: 90%;
+  min-width: 500px;
 }
 
 .nav-item a {
