@@ -14,7 +14,7 @@ p {
   font-family: jaf-bernino-sans-condensed, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 12;
+  font-size: 16px;
   color: #0d160b;
 }
 /*Leo: here is paragraph and header styling*/
@@ -23,6 +23,10 @@ h1,h2,h3,h4 {
   font-weight: 400;
   font-style: normal;
   color: #033863;
+}
+
+h1{
+  font-size: 80px;
 }
 
 #container-a, #container-b{
@@ -60,6 +64,15 @@ h1,h2,h3,h4 {
 #main-img img {
   width: 90%;
   float: right;
+}
+
+#main ul {
+  font-family: jaf-bernino-sans-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #0d160b;
+  line-height: 22px;
 }
 
 .block {
