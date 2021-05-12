@@ -2,7 +2,7 @@ html {
   /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
   /*Stephanie: this is where you place the large yoyo image*/
-  background-image: url(img/holder500.jpg);
+  background-image: url();
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -23,6 +23,12 @@ h1,h2,h3,h4 {
   font-weight: 400;
   font-style: normal;
   color: #033863;
+}
+
+h1{
+  font-size: 120px;
+  padding-bottom: none;
+  margin-bottom: 0;
 }
 
 #container-a, #container-b{
@@ -60,6 +66,51 @@ h1,h2,h3,h4 {
 #main-img img {
   width: 90%;
   float: left;
+}
+
+#main-img img:hover{
+  width: 100%;
+}
+
+#rope img{
+  width: 60%;
+  padding: none;
+}
+
+#rope img:hover{
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+#inner-img img{
+  max-width: 60%;
+  float: right;
+  border-radius: 60%;
+}
+
+#inner-img img:hover{
+  border: dashed 5px #033863;
+  max-width: 60%;
+  float: right;
+  border-radius: 10%;
 }
 
 .block {

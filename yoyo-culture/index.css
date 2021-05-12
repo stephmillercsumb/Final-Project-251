@@ -2,7 +2,6 @@ html {
   /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
   /*Stephanie: this is where you place the large yoyo image*/
-  background-image: url(img/holder500.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -25,12 +24,25 @@ h1,h2,h3,h4 {
   color: #033863;
 }
 
+h1{
+  font-size: 170px;
+  text-align: center;
+  z-index: -12;
+}
+
 #container-a, #container-b{
   display: flex;
   flex: 100%;
   padding: 20px;
   justify-content: space-between;
   margin-bottom: 30px;
+}
+
+#container-b{
+    z-index: 10;
+}
+#container-a{
+  z-index: -12;
 }
 
 .optional{
@@ -55,12 +67,18 @@ h1,h2,h3,h4 {
 
 #main-img {
   flex: 30%;
+  z-index: -10;
 }
 
 #main-img img {
-  width: 90%;
+  width: 50%;
   float: right;
+  position: fixed;
+  right: -10%;
+  z-index: -10;
+
 }
+
 
 .block {
 min-width: 170px;
