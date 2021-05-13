@@ -14,24 +14,25 @@ html {
 }
 
 #logo img {
-  width: 80%;
+  width: 40%;
       min-width: 200px;
       float: right;
+      position: relative;
+      top: -5px;
 }
 
 #main {
-  width: 40%;
-  min-width: 200px;
-  padding: 15px;
-  float: right;
-  display: inline-block;
-  position: absolute;
-  right: 2%;
-  top: 40%;
-  /*Leo: this is where you can place background color*/
-  background-color: #db312a;
-  border:solid transparent;
-  border-radius: 20px;
+  width: 45%;
+      min-width: 200px;
+      padding: 15px;
+      float: right;
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      top: 55%;
+      background-color: #db312a;
+      border: solid transparent;
+      border-radius: 20px;
 }
 
 #main p {

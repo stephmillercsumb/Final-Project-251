@@ -45,27 +45,20 @@ h1{
   text-align: center;
 }
 .opt-con{
-  display:flex;
   width:100%;
   margin: 30px 0px 50px 0px
 }
 
 .opt {
-      flex: 55%;
-      margin: 5px;
-      border: solid transparent;
-      border-radius: 10px;
-      background-color: #ebc257;
-      padding: 5px;
-}
-
-.opt2 {
-      flex: 40%;
-      margin: 5px;
-      border: solid transparent;
-      border-radius: 10px;
-      background-color: #ebc257;
-      padding: 5px;
+  margin: 5px;
+border: solid transparent;
+border-radius: 10px;
+background-color: rgb(235, 194, 87);
+padding: 5px;
+width: 55%;
+display: inline-block;
+text-align: left;
+column-count: 2;
 }
 
 .opt p {
@@ -176,43 +169,22 @@ margin: 0px auto 0px auto;
 }
 
 #container-c {
-  display: block;
+  display: flex;
   width: 100%;
   padding: 20px;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
-.block-l{
-min-width: 170px;
+.opt2 {
+  margin: 0px 10px 0px 0px;
+border: solid transparent;
+border-radius: 10px;
+background-color: rgb(235, 194, 87);
+padding: 5px;
+flex: 70%;
+float: right;
 display: inline-block;
-width: 40%;
-padding: 10px 5px 0px 5px;
-text-align: center;
-align-content: center;
-align-items: center;
-align-self: center;
-margin: 0px auto 0px auto;
-}
-
-.block-l img {
-  max-width: 80%;
-}
-
-.block-l p {
-  /*Leo: chose color for caption boxes from color sheet SAME AS .block*/
-  background-color: #eb8e4b;
-  padding: 5px;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-
-.right {
-  width: 30%;
-  float:right;
-}
-
-.top {
-  text-align: center;
 }
 
 .bottom {
@@ -221,6 +193,8 @@ margin: 0px auto 0px auto;
   background-color: #aaebc2;
   border: solid transparent;
   border-radius: 20px;
+  margin-left:5px;
+  flex:25%;
 }
 .bottom h4 {
   /*Leo: this is the title for the sources box, chose a font and or color*/
@@ -244,4 +218,51 @@ a {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
+}
+
+#box {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.left {
+  width:32%;
+  background-color: transparent;
+  display:inline-block;
+  float:left;
+  margin: 0px 3px 0px 6px;
+}
+
+.mid{
+  width:32%;
+  background-color: transparent;
+  display:inline-block;
+  margin:0px 3px 0px 3px;
+}
+
+.right {
+  width:32%;
+  background-color: transparent;
+  display:inline-block;
+  float:right;
+  margin:0px 6px 0px 3px;
+}
+
+#accordion {
+  background-color: transparent;
+  border-radius: 20px;
+}
+.card{
+  width:100%;
+  background-color: rgb(235, 194, 87);
+}
+
+.card h6 {
+  font-family: jaf-bernino-sans-condensed, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #0d160b;
 }
