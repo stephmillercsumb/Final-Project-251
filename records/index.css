@@ -26,9 +26,10 @@ h1,h2,h3,h4 {
 }
 
 h1{
-  font-size: 120px;
-  padding-bottom: none;
-  margin-bottom: 0;
+    font-size: 120px;
+    letter-spacing: 25px;
+    text-align: center;
+    z-index: -12;
 }
 
 #container-a, #container-b{
@@ -211,7 +212,10 @@ a {
   font-style: normal;
   color: #0d160b;
 }
-
+nav img {
+  background-color: white;
+  border-radius: 5px;
+}
 .nav-item a {
   color: white;
   margin: 0px 10px 0px 10px;

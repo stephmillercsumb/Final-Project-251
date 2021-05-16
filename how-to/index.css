@@ -2,10 +2,10 @@ html {
   /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
   /*Stephanie: this is where you place the large yoyo image*/
-  background-image: url(img/holder500.jpg);
-  background-size: 50%;
+  background-image: url(img/by-yo.png);
+  background-size: 35%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: center right;
 }
 body {
   background-color: transparent;
@@ -29,6 +29,10 @@ h1{
   font-size: 80px;
 }
 
+h2 {
+  margin-bottom:0px;
+}
+
 #container-a, #container-b{
   display: flex;
   flex: 100%;
@@ -50,7 +54,6 @@ h1{
   background-color: #db312a;
   border: solid transparent;
   border-radius: 20px;
-
 }
 
 #main h2 {
@@ -59,11 +62,8 @@ h1{
 
 #main-img {
   flex: 30%;
-}
-
-#main-img img {
-  width: 90%;
-  float: right;
+  align-items: center;
+  text-align: center;
 }
 
 #main ul {
@@ -160,11 +160,22 @@ a {
   font-style: normal;
   color: #0d160b;
 }
-
+nav img {
+  background-color: white;
+  border-radius: 5px;
+}
 .nav-item a {
   color: white;
   margin: 0px 10px 0px 10px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
+}
+.border {
+  border: solid #fbf2da 1px !important;
+  padding: 5px 5px 0px 5px;
+  background-color: #fbf2da;
+  border-radius: 20px;
+  width: max-content;
+  margin: auto;
 }

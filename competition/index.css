@@ -30,6 +30,14 @@ h1{
   font-size: 80px;
 }
 
+.border {
+  border: solid #fbf2da 1px !important;
+  padding: 5px;
+  background-color: #fbf2da;
+  border-radius: 20px;
+  width: max-content;
+  margin: auto;
+}
 #container-a, #container-b{
   display: flex;
   flex: 100%;
@@ -166,7 +174,9 @@ margin: 0px auto 0px auto;
   background-color: #aaebc2;
   border: solid transparent;
   border-radius: 20px;
+  text-align: center;
 }
+
 .bottom h3 {
   /*Leo: this is the title for the sources box, chose a font and or color*/
   font-family: continuo,sans-serif;
@@ -175,17 +185,28 @@ margin: 0px auto 0px auto;
   color: #033863;
 }
 
+.links {
+  column-count: 4;
+  column-gap: 5px;
+}
+
 a {
   /*Leo: this is if you want to style the fonts/decorations/color for the links*/
   font-family: jaf-bernino-sans-condensed, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #0d160b;
+  padding: 0px 9px 0px 9px;
+}
+
+nav img {
+  background-color: white;
+  border-radius: 5px;
 }
 
 .nav-item a {
   color: white;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 0px 0px 0px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;

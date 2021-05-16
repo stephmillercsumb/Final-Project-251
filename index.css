@@ -14,7 +14,7 @@ html {
 }
 
 #logo img {
-  width: 40%;
+  width: 35%;
       min-width: 200px;
       float: right;
       position: relative;
@@ -29,7 +29,7 @@ html {
       display: inline-block;
       position: absolute;
       right: 2%;
-      top: 55%;
+      top: 48%;
       background-color: #db312a;
       border: solid transparent;
       border-radius: 20px;
@@ -72,10 +72,28 @@ h1{
   min-width: 500px;
 }
 
+nav img {
+  background-color: white;
+  border-radius: 5px;
+}
 .nav-item a {
   color: white;
   margin: 0px 10px 0px 10px;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
+}
+
+.bottom {
+  /*Leo: this is the box for the sources, chose a different color from main and caption boxes*/
+  text-align: center;
+}
+
+a {
+  /*Leo: this is if you want to style the fonts/decorations/color for the links*/
+  font-family: jaf-bernino-sans-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #0d160b;
+  padding: 0px 25px 0px 25px;
 }

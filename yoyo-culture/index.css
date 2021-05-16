@@ -2,9 +2,10 @@ html {
   /*Leo: this is where you can place background color*/
   background-color: #fbf2da;
   /*Stephanie: this is where you place the large yoyo image*/
-  background-size: 50%;
+  background-image: url(img/blueyoyotransparent.png);
+  background-size: 45%;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: top right;
 }
 body {
   background-color: transparent;
@@ -25,7 +26,8 @@ h1,h2,h3,h4 {
 }
 
 h1{
-  font-size: 170px;
+  font-size: 145px;
+  letter-spacing: 20px;
   text-align: center;
   z-index: -12;
 }
@@ -149,6 +151,7 @@ margin: 0px auto 0px auto;
   background-color: #aaebc2;
   border: solid transparent;
   border-radius: 20px;
+  text-align: center;
 }
 .bottom h4 {
   /*Leo: this is the title for the sources box, chose a font and or color*/
@@ -165,7 +168,10 @@ a {
   font-style: normal;
   color: #0d160b;
 }
-
+nav img {
+  background-color: white;
+  border-radius: 5px;
+}
 .nav-item a {
   color: white;
   margin: 0px 10px 0px 10px;
