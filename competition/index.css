@@ -6,7 +6,7 @@ html {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom left;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 body {
   background-color: transparent;
